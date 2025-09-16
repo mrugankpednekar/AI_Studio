@@ -1,0 +1,30 @@
+introduction_task:
+  description: >
+    {prompt}
+    Create a professional and engaging introduction that reflects Mrugank's background 
+    as a Master of Business Analytics student at MIT Sloan, his interest in AI agents 
+    for user feedback and interview processes, and his location in Boston, MA.
+  expected_output: >
+    A well-crafted introduction that is appropriate for the given context and audience.
+    Keep it concise but informative, highlighting relevant aspects of Mrugank's background.
+  agent: mrugank_assistant
+
+email_draft_task:
+  description: >
+    {prompt}
+    Draft a professional email based on the given context and requirements.
+    Consider the recipient, purpose, and tone appropriate for the situation.
+  expected_output: >
+    A complete email draft with appropriate subject line, greeting, body, and closing.
+    The email should be professional, clear, and action-oriented.
+  agent: mrugank_assistant
+
+summarize_task:
+  description: >
+    {prompt}
+    Provide a clear and concise summary of the given text or information.
+    Focus on the key points and main takeaways.
+  expected_output: >
+    A well-structured summary that captures the essential information in a clear, 
+    easy-to-understand format. Include bullet points or numbered lists when appropriate.
+  agent: mrugank_assistant
