@@ -9,7 +9,6 @@ This document reflects on my experience building a personal AI assistant using C
 - **Multi-Agent Architecture**: Understanding how CrewAI orchestrates multiple agents to work together on complex tasks
 - **YAML Configuration**: Learning to structure agent personalities, goals, and backstories through configuration files
 - **Task Management**: How to define tasks with clear inputs, expected outputs, and agent assignments
-- **LiteLLM Integration**: How CrewAI uses LiteLLM to abstract different AI model providers
 
 ### 2. Agent Development Best Practices
 - **Start Simple**: Beginning with basic functionality before adding complexity
@@ -33,7 +32,6 @@ This document reflects on my experience building a personal AI assistant using C
 ### 2. Model Provider Flexibility
 - **Cerebras Integration**: Successfully switching from OpenAI to Cerebras to avoid quota issues
 - **Environment Variables**: Clean separation of configuration from code
-- **LiteLLM Abstraction**: Easy switching between different model providers
 
 ### 3. Project Structure
 - **Modular Design**: Clear separation between agents, tasks, and configuration
@@ -113,34 +111,6 @@ This document reflects on my experience building a personal AI assistant using C
 ### 3. Configuration Management
 **Problem**: Hard-coded values in configuration
 **Solution**: Moved to environment variable-based configuration for flexibility
-
-## Future Improvements
-
-### 1. Enhanced Validation
-- Implement fact-checking mechanisms for web-sourced information
-- Add confidence scoring for generated content
-- Create validation pipelines for personal information
-
-### 2. Better Context Management
-- Develop more sophisticated knowledge base structures
-- Implement context-aware information retrieval
-- Add user feedback loops for continuous improvement
-
-### 3. Advanced Capabilities
-- Integrate with real-time data sources
-- Add multi-modal capabilities (text, images, documents)
-- Implement conversation memory and learning
-
-### 4. Development Workflow
-- Set up proper CI/CD pipelines
-- Implement automated testing
-- Create better documentation and examples
-
-## Conclusion
-
-This project provided valuable hands-on experience with CrewAI and agent development. While the initial web scraping approach faced significant challenges, the pivot to simpler, more focused functionality resulted in a working personal assistant. The experience highlighted the importance of starting simple, being precise with prompts, and understanding the limitations of current AI systems.
-
-The most valuable lesson was learning to balance AI assistance with manual development work, which ultimately led to a deeper understanding of the technology and better debugging skills. This foundation will be crucial for future agent development projects.
 
 ## Recommendations for Future Projects
 
