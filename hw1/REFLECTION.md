@@ -63,37 +63,3 @@ This document reflects on my experience building a personal AI assistant using C
 **Over-Engineering**: Started with overly complex web scraping functionality instead of focusing on core agent capabilities.
 
 **Lesson**: Should have begun with simple text-based tasks and gradually added complexity.
-
-## Key Insights and Lessons Learned
-
-### 1. Start Simple, Build Incrementally
-**Insight**: The most successful approach was to begin with basic text processing tasks (introductions, email drafting, summarization) before attempting complex web interactions.
-
-**Application**: 
-- Define core functionality first
-- Test each component thoroughly
-- Add complexity only after basic features are stable
-
-### 2. Precision in Prompting is Critical
-**Insight**: Vague or overly broad prompts lead to hallucination and inaccurate outputs.
-
-**Application**:
-- Provide specific context boundaries
-- Use clear, actionable instructions
-- Include validation criteria in prompts
-
-### 3. Context Management is Essential
-**Insight**: Too much context can confuse the agent, while too little leads to poor performance.
-
-**Application**:
-- Curate relevant information carefully
-- Use structured knowledge bases
-- Implement context validation mechanisms
-
-### 4. Development Environment Matters
-**Insight**: Working with limited AI assistance actually improved my understanding of the codebase and debugging skills.
-
-**Application**:
-- Don't rely solely on AI suggestions
-- Understand the underlying code structure
-- Develop debugging and problem-solving skills
